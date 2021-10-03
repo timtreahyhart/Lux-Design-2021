@@ -20,11 +20,26 @@ public class bot_0_0_0 {
 
       ArrayList<String> actions = new ArrayList<>(); 
       //these are the actions that the bot can take
-      //move
+      //move 
       //pillage
       //transfer
       //build citytile
+      ///city tile
+      //build worker
+      //build cart
+      //research
 
+
+      //some basic strategies that are forming:
+      //workers gather from every adjacent space, so it makes sense to optimize so that a worker moves to the center of resources
+      //a worker should stay where they are after a certain point and wait for carts to come to them
+      //carts should transfer between workers and citytiles
+      //avoid collisions
+
+      //should build an understanding of where you are in the day.
+      //units are more efficient if they are doing only one task
+      //most units to city tiles ahead of darkness
+      
       GameState gameState = agent.gameState;
       /** AI Code Goes Below! **/
 
