@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 import lux.*;
 
-public class Bot {
+public class basic_bot {
   public static void main(final String[] args) throws Exception {
     Agent agent = new Agent();
     // initialize
